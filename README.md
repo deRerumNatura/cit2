@@ -1,5 +1,16 @@
 # Registration / Login / Logout forms 
     Выполняя задание, я использовал реализацию MVC паттерна. 
+ 
+
+------------
+
+
+ **Для того что бы перемещать файлы из коревой дериктории, нужно записать путь от корня до файлов проекта в константу FULL_PATH, которая находится в "application/config/config.php". Например define('FULL_PATH', '/your/path/to');.**
+ 
+
+------------
+
+
  Проект состоит из
 -  двух контроллеров(AdminController, AuthController).
 -  двух моделей(Countries, Users).
